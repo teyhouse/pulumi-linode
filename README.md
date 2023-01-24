@@ -12,7 +12,11 @@ https://www.pulumi.com/docs/get-started/install/
 (check for newer version on: github.com/pulumi/pulumi-linode/sdk/v3/go/linode)  
 - Linode API Token - create on this page:  
 https://cloud.linode.com/profile/tokens
-
+  
+# 📃 Requirements
+Please make sure to set your Linode-Token as Pulumi-Secret:
+``pulumi config set linode:token XXXXXXXXXXXXXX --secret``
+  
 # 🚫 Limitations
 This example is meant as a showcase, so certain aspects have been purposely simplified.  
 In real environments, you should create more abstraction and therefore usability for your resources (go-modules for every resource type, for example).  
