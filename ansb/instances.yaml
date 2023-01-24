@@ -1,0 +1,15 @@
+---
+
+- name: Update System / Install nginx
+  hosts: all
+  become: yes
+  gather_facts: false
+  tasks:
+
+    - name: update / upgrade system packages
+      apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
+
+    - name: install nginx
+      apt:
+        name: nginx
+        state: present
