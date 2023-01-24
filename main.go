@@ -32,7 +32,7 @@ func main() {
 					},
 				},
 				&linode.FirewallInboundArgs{
-					Label:    pulumi.String("ALLOW-ALL-TT"),
+					Label:    pulumi.String("ALLOW-SSH-TT"),
 					Action:   pulumi.String("ACCEPT"),
 					Protocol: pulumi.String("TCP"),
 					Ports:    pulumi.String("22"),
