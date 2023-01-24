@@ -19,8 +19,8 @@ https://cloud.linode.com/profile/tokens
   
 # 🚫 Limitations
 This example is meant as a showcase, so certain aspects have been purposely simplified.
-In real environments, you should create more abstraction and therefore usability for your resources (go-modules for every resource type, for example).
-Certain configuration elements (resource amounts, ssh keys, etc.) should be moved to configuration files (yaml, json, or whatever you prefer).
+In real environments, you should create more abstraction and therefore usability for your resources (go-modules for every resource type, for example).  
+Certain configuration elements (resource amounts, ssh keys, etc.) should be moved to configuration files (yaml, json, or whatever you prefer).  
 If you are planning on using VLANs, please implement a real IP generation algorithm; the current implementation is just thin duct tape.
   
 # 📖 API
