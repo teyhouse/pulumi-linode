@@ -13,7 +13,7 @@ https://www.pulumi.com/docs/get-started/install/
 - Linode API Token - create on this page:  
 https://cloud.linode.com/profile/tokens
   
-Make sure to set your Linode-Token as Pulumi-Secret:
+- Make sure to set your Linode-Token as Pulumi-Secret:
 ``pulumi config set linode:token XXXXXXXXXXXXXX --secret``
   
 # 🚫 Limitations
